@@ -1,0 +1,25 @@
+/***********nth type of selectors, Combining Selectors, Universal selectors**************
+*type:nth-of-type(#,even or odd, formula)
+*type:nth-of-child(...) sometimes won't be the most efficient
+*type.or# class or id
+* *{ indicated universal 
+    -targets all of code
+    -usually used to reset code to design
+*****************************************************************************************/
+article:nth-of-type(2n+1){
+    color: blue;
+}
+
+article.featured-content{
+    color: greenyellow;
+}
+
+div.featured-content{
+    background: red;
+}
+
+/*
+*{
+    color: red;
+}
+*/

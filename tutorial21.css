@@ -1,0 +1,22 @@
+/***************First and last Selectors***************
+* keyword -> first-child or last-child
+*******************************************************/
+article p:first-child{
+    font-weight: bold;
+    color: aqua;
+}
+
+article p:last-child{
+    color: red;
+}
+
+/* if the above shit dont work, do this */
+
+article p:first-of-type{
+    font-weight: bold;
+    color: navy;
+}
+
+article p:last-of-type{
+    color: red;
+}

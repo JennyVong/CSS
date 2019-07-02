@@ -1,0 +1,20 @@
+/* TARGETING ELEMENTS / TAGS */
+
+p{
+    font-size: 12PX;
+    color: red;
+}
+a{
+    text-decoration: underline;
+    color: blue;
+}
+span{
+    text-transform: uppercase;
+}
+h1{
+    font-size: 32PX;
+}
+div{
+    width: 100%;
+    background-color: grey;
+}

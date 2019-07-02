@@ -1,0 +1,27 @@
+/* targeting classes and ids
+*classes - used multiple times 
+*ids - used only once
+*can edit different headings and paragraphs within different ids and classes
+*# are used for ids
+* . used for classes
+*/
+
+h2{
+    font-size: 24px;
+}
+
+#content-header{
+    font-size: 18px;
+    color: blue;
+}
+
+span{
+    display: block;
+    color: blue;
+}
+
+.deck{
+    color: red;
+}
+
+

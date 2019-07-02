@@ -1,0 +1,30 @@
+/*********************Attribute Selectors****************************
+*first select the element and then the attribute in []
+* eg. span[class] 
+    - this would target all span tags that have a class attributed
+*pdf files 
+    - selected through a[href$=""]
+    -$ signifies ending for certain document downloads
+* external links
+    -selected with ^ to signify starting of selector
+**********************************************************************/
+span[class="deck"]{
+    color: green; /* will still pick up first deck even if it has multiple classes
+     */
+}
+
+div[id]{
+    background: grey;
+}
+
+a[title]{
+    color: red; /* can get more specific, title="search engine" */
+}
+
+a[href$="pdf"]{
+    color: purple;
+}
+
+a[href^="http"]{
+    color: aqua;
+}

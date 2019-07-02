@@ -1,0 +1,43 @@
+/******************************************Pseudo Selectors*********************************************************
+*pseudo classes
+    -special keywords that go after selectors
+    -they can be used to target:
+        >special behavioural states
+        >advanced structural states
+    -dynamic
+        >based on behaviour
+        >does external link change colour when mouse hovers over it?
+    -structural
+        >advanced structural states
+        >parent-child relationships
+*dynamic pseudo classes
+    -allows us to style an element in relation to user actions:
+        >whether a link is being hovered over
+        >whether a button is being pressed
+        >whether a tick box has been checked
+*structural pseudo classes
+    -allow is to style elements based on advanced structural techniquesnot possible from ordinary CSS selectors
+        >select 5th <li> tag in a list
+        >select a parent tag that has no children
+* .class:keyword --> colon indicated that a pseudo class is being selected
+*hover
+    -mouse over link
+*active
+    -link is clicked on
+*visited
+    -link has been visited
+********************************************************************************************************************/
+a:hover{
+    color: chartreuse;
+}
+
+a:active{
+    color: orange;
+}
+a:visited{
+    color: purple;
+}
+
+#main-content:hover{
+    background: blue;
+}

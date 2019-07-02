@@ -1,0 +1,28 @@
+/*******Important tag, Descendent selector, Child Selectors, adjacent selectors*******
+* !important can be put into any command to overide other tags
+    -although this isn't desired in any case that can be fixed by other means
+* descendent selectors
+    - foil out each tag and everything under to target certain tag
+    -go main-content -> subcontent -> p tag
+* child selectors
+    -target tags right under the div
+    - use > to indicate the child tag under
+* eg. multiple articles with mulltiple p tags under each one
+    -select id and then header + p tag
+    -this will select every p tag right under header for each article
+*******************************************************************/
+#header > h2{
+    color: red;
+}
+
+h2{
+    color: blue !important; /* override and make both blue */
+}
+
+#main-content #subcontent p{
+    color: green; /* prefereably #subcontent p{ */
+}
+
+#main-content > p{
+    text-transform: uppercase;
+}

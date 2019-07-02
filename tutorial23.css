@@ -1,0 +1,19 @@
+/*************nth child selectors*************
+*li:nth-child (list number){
+*li:nith-child(even or odd){
+**********************************************/
+li:nth-child(1), li:nth-child(3){
+    font-weight: bold;
+}
+/*
+li:nth-child(even){
+    background: grey;
+}
+
+li:nth-child(odd){
+    background: aqua;
+}
+*/
+li:nth-child(2n+1){
+    color: yellow; /* can use formulas as well */
+}

@@ -1,0 +1,24 @@
+/******Selector Specificty******
+*ids take priority over classes which take priority over non-contained
+*i.e ids = 100pts
+*classes = 10pts
+non-contained tags = 1pt
+*something like a strong tag within a selected ig tag 
+    - when select strong tag it will take effect over id
+    - this is due to it being explicitly selected
+***********************************/
+#main-content p{
+    color: red;
+}
+
+p{
+    color: blue; /* none contained P tag is blue */
+}
+
+.test{
+    color: green; /* this will not work due to id>class */
+}
+
+strong{
+    color: green; /* this will work explained above */
+}
